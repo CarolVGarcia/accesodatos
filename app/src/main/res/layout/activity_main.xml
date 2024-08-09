@@ -12,7 +12,17 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:stretchColumns="*"
-        tools:context="${relativePackage}.${activityClass}" >
+        tools:context="${relativePackage}.${activityClass}"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:text="INFORMACIÓN DE CONTACTO"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_margin="4mm"/>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -34,7 +44,7 @@
                 android:text="@string/tel1" />
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:text="@string/tel2" />
         </TableRow>
         <TableRow>
@@ -68,10 +78,11 @@
             android:layout_height="wrap_content"
             android:layout_span="2"
             android:text="@string/notas" />
+
         <EditText
             android:id="@+id/txtNotas"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="387dp"
+            android:layout_height="278dp"
             android:layout_weight="0.97"
             android:ems="10"
             android:inputType="textMultiLine" />
