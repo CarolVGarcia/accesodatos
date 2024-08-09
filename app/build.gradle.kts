@@ -46,5 +46,7 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation ("com.google.firebase:firebase-database:20.0.0")
+    implementation ("com.google.firebase:firebase-auth:21.0.0")
     implementation(platform("com.google.firebase:firebase-bom:33.1.2"))
 }
