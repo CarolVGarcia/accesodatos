@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "718235131226",
+    "project_id": "accesodatoscarol",
+    "storage_bucket": "accesodatoscarol.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718235131226:android:ad1c2e6d8b985395ece763",
+        "android_client_info": {
+          "package_name": "com.example.agendafirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcp4v3fQYMDWygo3T1_aghb7VdC0sIAH4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
